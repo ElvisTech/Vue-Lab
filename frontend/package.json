@@ -1,0 +1,23 @@
+{
+  "name": "vue-fastapi-frontend",
+  "version": "1.0.0",
+  "description": "Vue.js frontend for Vue + FastAPI project",
+  "main": "src/main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.0",
+    "@vue/cli-plugin-eslint": "^5.0.0",
+    "@vue/cli-service": "^5.0.0",
+    "eslint": "^8.13.0",
+    "eslint-plugin-vue": "^9.1.0"
+  },
+  "browserslist": "> 1%, not dead, not ie 11, not op_mini all"
+}
